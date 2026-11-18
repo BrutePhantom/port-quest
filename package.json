@@ -1,5 +1,5 @@
 {
-  "name": "port-cleaner",
+  "name": "port-quest",
   "version": "1.0.0",
   "description": "Find the processes listening on local TCP ports.",
   "keywords": [
@@ -12,7 +12,7 @@
   "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "port-cleaner": "bin/port-cleaner.js"
+    "port-quest": "bin/port-quest.js"
   },
   "files": [
     "bin",
