@@ -1,0 +1,31 @@
+{
+  "name": "port-cleaner",
+  "version": "1.0.0",
+  "description": "Find the processes listening on local TCP ports.",
+  "keywords": [
+    "port",
+    "process",
+    "cli",
+    "developer-tools"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "port-cleaner": "bin/port-cleaner.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  }
+}
